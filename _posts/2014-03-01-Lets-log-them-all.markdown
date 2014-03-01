@@ -17,6 +17,6 @@ First I took a look at the commercial solutions. Everybody says Splunk is the be
 
 The point is that my hacker ego won’t let me give up before trying :)
 
-So I started to study the open source solutions and discover a really nice trio: Elastic Search + Logstash + Kibana (check out the final result at <a href="http://demo.kibana.org" target="_blank">demo.kibana.org</a>). I can’t say it’s simple to deploy, but after studying a little bit it, took me 2 days to make it work, I’ll show you how in the next post.
+So I started to study the open source solutions and discover a really nice trio: Elastic Search + Logstash + Kibana (check out the final result at <a href="http://demo.kibana.org" target="_blank">demo.kibana.org</a>). I can’t say it’s simple to deploy, but after studying it a little bit, it took me 2 days to make it work, I’ll show you how in the next posts.
 
 
