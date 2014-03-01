@@ -3,13 +3,14 @@ author: Pedro Axelrud
 markdown: redcarpet
 pygments: true
 baseurl:
-description:
+description: Pedro Axelrud is a Entrepreneur and DevOps at Mailee.me. Let's talk about all the obstacles of sending emails and maintaining a nice infrastructure.
 github: http://www.github.com/pedroaxl
 twitter: http://www.twitter.com/pedroaxl
 linkedin: http://br.linkedin.com/in/pedroaxl/
 email: pedroaxl@gmail.com
 location: 42°2'16"N   70°12'47"W
 disqus: devopsadventures
+url: http://pedroaxl.github.io
 
 ##Make sure to edit the above fields, especially for disqus.
 
