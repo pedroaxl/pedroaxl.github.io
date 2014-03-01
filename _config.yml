@@ -1,15 +1,15 @@
-name: DevOps Adventues
+name: DevOps Adventures
 author: Pedro Axelrud
 markdown: redcarpet
 pygments: true
 baseurl:
-description: theme for jekyll
+description:
 github: http://www.github.com/pedroaxl
 twitter: http://www.twitter.com/pedroaxl
 linkedin: http://www.linkedin.com
 email: pedroaxl[at]gmail.com
 location: 42°2'16"N   70°12'47"W
-disqus: diqus-username
+disqus: devopsadventures
 
 ##Make sure to edit the above fields, especially for disqus.
 
