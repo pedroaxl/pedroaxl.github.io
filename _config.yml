@@ -2,7 +2,7 @@ name: DevOps Adventues
 author: Pedro Axelrud
 markdown: redcarpet
 pygments: true
-baseurl:
+baseurl:''
 description: theme for jekyll
 github: http://www.github.com/pedroaxl
 twitter: http://www.twitter.com/pedroaxl
