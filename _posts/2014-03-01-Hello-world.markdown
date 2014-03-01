@@ -8,7 +8,7 @@ categories: thinking
 
 Ok, I decided I should blog about the interesting things I am doing at my work. So let me introduce myself.
 
-I am Pedro Axelrud, an entrepreneur and developer. I run a startup called Mailee.me, we develop an email marketing platform called Mailee.me(http://mailee.me).
+I am Pedro Axelrud, an entrepreneur and developer. I run a startup called Mailee.me, we develop an email marketing platform called [Mailee.me](http://mailee.me).
 
 Today my work is mixed between developing and taking care of the business. I started as a Ruby developer and at the same time I also had the sysadmin role, so naturally the DevOps role came very naturally.
 

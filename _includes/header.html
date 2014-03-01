@@ -14,8 +14,16 @@
       <![endif] d-->
     </head>
     <body>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=103609203163971";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="nav-toggle"><i class="fa fa-bars fa-2x"></i> Herring Cove </div>
-      <div id = "wrapper">      
+      <div id = "wrapper">
 
 
 <div class="navbar navbar-default" role="navigation">
@@ -31,10 +39,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-          <li><a href="{{ site.baseurl }}/list.html">List</a></li>
-          <li><a href="{{ site.baseurl }}/links.html">Links</a></li>
-          <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
-          <li><a href="{{ site.baseurl }}/about.html">About</a></li>
+          <li><a href="{{ site.baseurl }}/thinking/2014/03/01/Hello-world.html">About</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -45,18 +50,24 @@
        <!-- Sidebar -->
        <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
-          <li class="sidebar-brand"><a href="{{ site.url }}"><h1 class="brand">{{ site.name }}</h1></a><h3>{{ site.description }}</h3></li>
-          <hr />
-          <li><a href="{{ site.baseurl }}/list.html">List</a></li>
-          <li><a href="{{ site.baseurl }}/links.html">Links</a></li>
-          <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
-          <li><a href="{{ site.baseurl }}/about.html">About</a></li>
-          <hr />
+          <li class="sidebar-brand"><a href="{{ site.url }}"><h1 class="brand" style="text-align:center">{{ site.name }}</h1></a><h3>{{ site.description }}</h3></li>
+          <!--<hr />-->
+          <div class="col-sm-12 col-md-12">
+            <div class="thumbnail" style="max-width: 256px; ">
+              <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/t1/c1.0.320.320/p320x320/1623717_10152220760414485_2093243554_n.jpg" />
+              <div class="caption">
+                <h3>Pedro Axelrud</h3>
+                <p>Entrepreneur and DevOps at <a href="http://mailee.me">Mailee.me</a>. Let's talk about all the obstacles of sending emails and maintaining a nice infrastructure.</p>
+              </div>
+            </div>
+          </div>
+
+          <!--<hr />-->
+          <!--<li><a href="{{ site.baseurl }}/thinking/2014/03/01/Hello-world.html">About</a></li>-->
           <div id="social-wrapper">
-           <li> <a href="{{ site.twitter }}"><i class="fa fa-twitter-square"></i> @twitter</a></li>
-           <li> <a href="{{ site.linkedin }}"><i class="fa fa-linkedin-square"></i> linkedin</a> </li>
-           <li> <a href="{{ site.facebook }}"><i class="fa fa-facebook-square"></i> facebook</a></li>
            <li> <a href="{{ site.github }}"><i class="fa fa-github-square"></i> github</a> </li>
+           <li> <a href="{{ site.linkedin }}"><i class="fa fa-linkedin-square"></i> linkedin</a> </li>
+           <li> <a href="{{ site.twitter }}"><i class="fa fa-twitter-square"></i> @twitter</a></li>
          </div>
        </ul>
      </div>
@@ -64,4 +75,4 @@
 
 
      <div class="container">
-       
+

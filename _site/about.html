@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Herring Cove</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="theme for jekyll">
+  <meta name="description" content="">
   <link href="/css/bootstrap.min.css" rel="stylesheet">
   <link href="/css/hc.css" rel="stylesheet">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -14,8 +14,16 @@
       <![endif] d-->
     </head>
     <body>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=103609203163971";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="nav-toggle"><i class="fa fa-bars fa-2x"></i> Herring Cove </div>
-      <div id = "wrapper">      
+      <div id = "wrapper">
 
 
 <div class="navbar navbar-default" role="navigation">
@@ -27,14 +35,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <p class="navbar-brand">DevOps Adventues</p>
+          <p class="navbar-brand">DevOps Adventures</p>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-          <li><a href="/list.html">List</a></li>
-          <li><a href="/links.html">Links</a></li>
-          <li><a href="/projects.html">Projects</a></li>
-          <li><a href="/about.html">About</a></li>
+          <li><a href="/thinking/2014/03/01/Hello-world.html">About</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -45,18 +50,24 @@
        <!-- Sidebar -->
        <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
-          <li class="sidebar-brand"><a href=""><h1 class="brand">DevOps Adventues</h1></a><h3>theme for jekyll</h3></li>
-          <hr />
-          <li><a href="/list.html">List</a></li>
-          <li><a href="/links.html">Links</a></li>
-          <li><a href="/projects.html">Projects</a></li>
-          <li><a href="/about.html">About</a></li>
-          <hr />
+          <li class="sidebar-brand"><a href=""><h1 class="brand" style="text-align:center">DevOps Adventures</h1></a><h3></h3></li>
+          <!--<hr />-->
+          <div class="col-sm-12 col-md-12">
+            <div class="thumbnail" style="max-width: 256px; ">
+              <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/t1/c1.0.320.320/p320x320/1623717_10152220760414485_2093243554_n.jpg" />
+              <div class="caption">
+                <h3>Pedro Axelrud</h3>
+                <p>Entrepreneur and DevOps at <a href="http://mailee.me">Mailee.me</a>. Let's talk about all the obstacles of sending emails and maintaining a nice infrastructure.</p>
+              </div>
+            </div>
+          </div>
+
+          <!--<hr />-->
+          <!--<li><a href="/thinking/2014/03/01/Hello-world.html">About</a></li>-->
           <div id="social-wrapper">
-           <li> <a href="http://www.twitter.com/pedroaxl"><i class="fa fa-twitter-square"></i> @twitter</a></li>
-           <li> <a href="http://www.linkedin.com"><i class="fa fa-linkedin-square"></i> linkedin</a> </li>
-           <li> <a href=""><i class="fa fa-facebook-square"></i> facebook</a></li>
            <li> <a href="http://www.github.com/pedroaxl"><i class="fa fa-github-square"></i> github</a> </li>
+           <li> <a href="http://br.linkedin.com/in/pedroaxl/"><i class="fa fa-linkedin-square"></i> linkedin</a> </li>
+           <li> <a href="http://www.twitter.com/pedroaxl"><i class="fa fa-twitter-square"></i> @twitter</a></li>
          </div>
        </ul>
      </div>
@@ -64,7 +75,7 @@
 
 
      <div class="container">
-       
+
 
   	</div>
 	<style>
@@ -79,15 +90,6 @@
 </div>
     <div class="container">
      
-  </div>
-<div class="container">
- <div id="welcome-greeting"><h1>Land Ahoy!</h1><h2>This is <a href="https://github.com/arnp/herring-cove">Herring Cove</a>, a minimal theme built for <a href="http://jekyllrb.com"> Jekyll</a>. It features a number distinctive features such as a fixed sidebar and a showcase image. It's also easily configurable and editable to your liking. <br><br> On this test site, you will find some blog posts, interesting links, and more. You'll also find a number of ways to get in touch.</h2> <hr />
-
-      </div>
-  </div>
-
-  <div class ="container">
-
   <div class="container">
 
   <div class="container">
@@ -118,7 +120,7 @@
 </div>
 
   	<footer>
-       <p class="text-muted credit">&copy; 2014 DevOps Adventues &middot; <a href="https://github.com/arnp/herring-cove"> Herring Cove for Jekyll </a>2014-03-01 00:42:38 -0300  </p>
+       <p class="text-muted credit">&copy; 2014 DevOps Adventures &middot; <a href="https://github.com/arnp/herring-cove"> Herring Cove for Jekyll </a>2014-03-01 01:38:06 -0300  </p>
   		 </footer>
  <!-- Bootstrap core JavaScript-->
     <script src="/js/jquery-1.10.2.min.js"></script>
