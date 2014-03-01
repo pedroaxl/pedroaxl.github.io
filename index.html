@@ -50,7 +50,7 @@ title: Your New Jekyll Site
        <!-- Sidebar -->
        <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
-          <li class="sidebar-brand"><a href="http://localhost:4000"><h1 class="brand">Herring Cove</h1></a><h3>theme for jekyll</h3></li>
+          <li class="sidebar-brand"><a href="{{ site.baseurl }}"><h1 class="brand">Herring Cove</h1></a><h3>theme for jekyll</h3></li>
           <hr />
           <li><a href="{{ site.baseurl }}/list.html">List</a></li>
           <li><a href="{{ site.baseurl }}/links.html">Links</a></li>
@@ -72,7 +72,7 @@ title: Your New Jekyll Site
 
   	</div>
 	<style>
-	.showcase-wrapper {background-image: url("http://localhost:4000/images/showcase.jpg");}
+    .showcase-wrapper {background-image: url("{{ site.baseurl }}/images/showcase.jpg");}
 	</style>
     <div class="showcase-wrapper sticky">
     <div class="showcase-text">
@@ -111,7 +111,7 @@ title: Your New Jekyll Site
     </ul>
 
     <ul>
-      <a href="http://localhost:4000/list.html">View More...</a>
+      <a href="{{ site.baseurl }}/list.html">View More...</a>
 </ul>
   	</div>
 <div class="contianer">
